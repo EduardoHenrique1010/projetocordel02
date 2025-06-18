@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    margin:0px ;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Matangi:wght@300..900&display=swap');
+
+
+html, body{
+   min-height: 100vh;
+   background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+header > h1{
+    font-variant: small-caps;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+header > h2{
+    padding-bottom: 20px;
+
+    font-size: large;
+}
+  a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom:10vh ;
+    padding-left: 20px;
+    line-height: 2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    
+}
+section.normal{
+    background-color:white;
+    color: black;
+}
+
+   
+section.imagem{
+   background-color: rgb(70, 70, 70);
+}
+section.imagem p{
+background-color: rgba(0, 0, 0, 0.342);
+padding: 1vh;
+width: 400px;
+}
+section#img1{
+background-image:url(Sertao3.jpg);
+background-position: center center;
+background-attachment: fixed;
+}
+section#img2{
+background-image:url(grande_sertao.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
